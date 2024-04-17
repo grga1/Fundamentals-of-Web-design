@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    width: 800px;
+    height: 600px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    font-size: 18px;
+    background: url("content/img/navigation-background.jpg");
+    height: 30px;
+    padding: 4px;
+    width: 800px;
+    margin-top: 40px;
+    color:#192402
+}
+header ul li{
+    list-style-type: none;
+    display: inline-block;
+}

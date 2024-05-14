@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: grey;
+}
+.eden{
+    margin: 10px;
+}
+.nav{
+    display: flex;
+    width: 100%;
+    border-bottom: 2px solid grey;
+}
+.nav1{
+    width: 50%;
+    margin-left: 100px;
+}
+.nav2{
+    width: 50%;
+    margin-left: 400px;
+}
+.nav ul li{
+    display: inline-block;
+    padding: 20px;
+}
+#a2{
+    color: greenyellow;
+}
+.section1{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    background-color: #90EE90;
+    height: 50px;
+}
+.s1-1{
+    width: 50%;
+}
+.s1-1 p{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    margin-left: 130px;
+    margin-top: 15px;
+}
+.s1-2{
+    width: 50%;
+}
+.s1-2 p{
+    color: white;
+    margin-top: 15px;
+    margin-left: 450px;
+}
+.section2{
+    width: 100%;
+    height: 500px;
+    background-color: darkgray;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.s2-1{
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 100%;
+    border-top: 2px solid lightgray;
+    border-bottom:2px solid  lightgray;
+    margin-top: 10px;
+    height: 60px;
+}
+.s2-1 p{
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.s2-2{
+    width: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 300px;
+    display: flex;
+}
+.c1{
+    width: 250px;
+
+    margin-left: 80px;
+    margin-right: 40px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+}
+.c2{
+    width: 250px;
+    height: 300px;
+    margin-right: 40px;
+    background-color: white;
+    border-radius: 10px;
+}
+.c3{
+    width: 250px;
+    height: 300px;
+    margin-right: 40px;
+    background-color: white;
+    border-radius: 10px;
+}
+.c4{
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.c1slika{
+ margin: 10px;
+ }
+ .c1slika img{
+     width: 230px;
+ }
+ .c1naslov{
+     text-align: center;
+ border-bottom: 2px solid black;
+     margin-left: 10px;
+     margin-right: 10px;
+     font-size: 20px;
+ }
+ .c1tekst{
+     text-align: justify;
+     margin: 10px;
+ }
+
+.futer{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    border-top: 2px solid grey;
+}
+.f1{
+    width: 50%;
+}
+.f1 p{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.f2{
+    width: 50%;
+}
+#f2{
+    color: greenyellow;
+}
+.futer ul li{
+    display: inline-block;
+    margin: 20px;
+}
+.futer ul li:nth-of-type(1){
+    margin-left: 70px;
+}

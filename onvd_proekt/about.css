@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+}
+body{
+    background: url("vecteezy_green-abstract-background-green-background-design-abstract_17023144.jpg") repeat;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover{
+    text-decoration: none;
+    cursor:pointer;
+    color: black;
+    transition: 1s;
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+.p-nav{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.ikona{
+    display: none;
+}
+.nav-ul li{
+    margin-top: 30px;
+    margin-left: 50px;
+    font-weight: bolder;
+}
+
+.nav-ul{
+    display: flex;
+    width: 100%;
+}
+.nav-ul li{
+    width: 33.3%;
+    text-align: center;
+    margin-left: 0px;
+}
+main{
+    margin-top: 90px;
+    text-align: center;
+}
+body > main > div > div > div.col-xl-4.col-lg-4.col-md-12.img > img{
+    height: 300px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.btn>button{
+    color: black;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    font-weight: bold;
+}
+.btn>button:hover{
+    transition: 1s;
+ background-color: black;
+    color: whitesmoke;
+}
+span{
+    font-weight: bold;
+}
+
+i{
+    padding: 10px;
+    font-size: 20px;
+}
+i:hover{
+    color: black;
+}
